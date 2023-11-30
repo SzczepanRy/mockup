@@ -1,0 +1,59 @@
+@use 'global';
+
+.about {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+
+    animation: appear 1s ease;
+    overflow-x: hidden;
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, .5)), url("../img/siedziba.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .desc {
+        height: 100%;
+        width: 100%;
+        //background-color: white;
+        display: flex;
+
+
+
+        ul {
+            position: relative;
+            top: 80px;
+            left: 80px;
+            list-style: none;
+            opacity: 2;
+            height: fit-content;
+            width: 60%;
+            background-color: rgba($color: #ffffff, $alpha: .6);
+
+            padding: 20px;
+            animation: slidein .2s ease;
+
+
+
+
+            box-shadow: 0px 0px 285px 285px rgba($color: #ffffff, $alpha: .6);
+            border-radius: 80px;
+
+            h2 {
+                margin-bottom: 5px;
+            }
+
+            li {
+                opacity: 1;
+                padding: 10px 0px;
+                color: #0060AA;
+                font-size: 18px;
+            }
+
+            img {
+                width: 200px;
+                height: 120px;
+
+            }
+        }
+    }
+}

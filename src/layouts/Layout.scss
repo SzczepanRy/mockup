@@ -1,0 +1,49 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .nav {
+        min-height: 80px;
+        width: 100%;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            scale: 0.3;
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        .links {
+
+            display: flex;
+            align-items: center;
+
+            justify-content: center;
+            flex-wrap: wrap;
+
+            li {
+                all: unset;
+
+                margin-right: 40px;
+
+                * {
+                    text-decoration: none;
+                    user-select: none;
+                    color: #0060AA;
+                }
+            }
+        }
+    }
+
+    .content {
+        height: calc(100vh - 50px);
+        width: 100vw;
+
+    }
+}
