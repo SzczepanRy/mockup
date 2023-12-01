@@ -1,4 +1,7 @@
 # Requirements : Node.js
+
+- [install node](https://nodejs.org/en/download/)
+
 By uruchomić stronę należy wejść w terminalu na ścieżkę główną C:\...\mockup>
 
 Następnie wydajemy polecenie "npm run dev" by uruchomić strone.
