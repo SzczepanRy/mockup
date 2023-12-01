@@ -17,11 +17,12 @@ function App() {
     <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Layout />} >
+          <Route path="/" element={<About />} />
           <Route path="about" element={<About />} />
           <Route path="jobOffers" element={<JobOffers />} />
           <Route path="certificates" element={<Certificates />} />
           <Route path="contacts" element={<Contacts />} />
-          <Route path="*" element={<About />} />
+
         </Route>
 
       </Routes>
