@@ -8,6 +8,8 @@ Następnie wydajemy polecenie "npm run dev" by uruchomić strone.
 
 By zbudować projekt do produkcji należy wydać polecenie "npm run build".
 
+Bardziej precyzyjne instrukcje w folderze ppt
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
