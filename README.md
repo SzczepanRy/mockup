@@ -1,7 +1,7 @@
 # Requirements : Node.js
-By uruchomić stronę należy wejść w ścieżkę główną C:...\mockup>
+By uruchomić stronę należy wejść w terminalu na ścieżkę główną C:\...\mockup>
 
-Następnie w terminal u wydajemy polecenie "npm run dev" by uruchomić strone.
+Następnie wydajemy polecenie "npm run dev" by uruchomić strone.
 
 By zbudować projekt do produkcji należy wydać polecenie "npm run build".
 
