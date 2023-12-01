@@ -8,7 +8,7 @@ Następnie wydajemy polecenie "npm run dev" by uruchomić strone.
 
 By zbudować projekt do produkcji należy wydać polecenie "npm run build".
 
-Bardziej precyzyjne instrukcje w folderze ppt
+Bardziej precyzyjne instrukcje w folderze /prentacja
 
 # React + TypeScript + Vite
 
